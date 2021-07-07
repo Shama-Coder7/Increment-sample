@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: rgb(178, 129, 212);
+  display: flex;
+
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.counter-container {
+  display: grid;
+  place-items: center;
+  color: cornsilk;
+  padding: 30px;
+
+}
+
+.counter {
+  place-items: center;
+  font-size: 50px;
+  height: fit-content;
+  color: yellow;
+  vertical-align: middle;
+
+}
+
+.fa-mug-hot {
+  padding: 20px;
+  color: orange;
+}
+
+.fa-users {
+  padding: 20px;
+  color: blue;
+}
+
+.fa-tasks {
+  padding: 20px;
+  color: green;
+}
